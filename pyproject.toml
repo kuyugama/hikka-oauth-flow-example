@@ -1,0 +1,8 @@
+[project]
+name = "hikka-oauth-flow-example"
+version = "0.0.1"
+description = "Hikka oauth flow example"
+requires-python = ">=3.11"
+dependencies = [
+    "requests>=2.32.3",
+]
