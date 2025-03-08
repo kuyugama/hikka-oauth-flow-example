@@ -8,9 +8,9 @@ def handle_response_error(resp: Response, message: str, status: int = 0):
         return
 
     print(message)
-    print("Status code:", response.status_code)
-    if response.status_code < 500:
-        print("Error response", response.json())
+    print("Status code:", resp.status_code)
+    if resp.status_code < 500:
+        print("Error response", resp.json())
 
     exit(status)
 
